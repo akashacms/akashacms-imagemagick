@@ -26,7 +26,7 @@ class ImageMagickRenderer extends akasha.Renderer {
     match(fname) {
         if (!fname.startsWith(this.path)) return false;
         var ret = super.match(fname);
-        console.log(`ImageMagickRenderer match ${fname} ${util.inspect(this._regex)} ${ret}`);
+        // console.log(`ImageMagickRenderer match ${fname} ${util.inspect(this._regex)} ${ret}`);
         return ret;
     }
 
