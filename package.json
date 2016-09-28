@@ -1,0 +1,14 @@
+{
+  "name": "akashacms-imagemagick",
+  "version": "0.1.0",
+  "description": "ImageMagick integration for AkashaCMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Herron <david@davidherron.com>",
+  "license": "ISC",
+  "dependencies": {
+    "imagemagick-native": "^1.9.3"
+  }
+}
